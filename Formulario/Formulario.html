@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Formulario </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+    <form id="id_form">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome"><br><br>
+            <label for="data" form="id_form">Data de nascimento</label>
+            <input type="date" id="data"> <br><br>
+            <label for="genero">Gênero</label>
+            <select name="genero" id="genero">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+            </select><br><br>
+            <label for="password" form="id_form">Senha</label>
+            <input type="password" id="password"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Refeição</legend>
+            <label for="refeicao">Escolha sua massa</label>
+            <select name="refeicao" id="refeicao">
+                <option value="nhoque">Nhoque</option>
+                <option value="ravioli">Ravioli</option>
+                <option value="lasanha">Lasanha</option>
+                <option value="fettuccine">Fettuccine</option>
+                <option value="capeletti">Capeletti</option>
+            </select><br><br>
+            <label for="pagamento">Forma de pagamento:</label><br>
+            Cartão de crédito <input type="checkbox" value="credito"> <br>
+            Cartão de débito<input type="checkbox" value="debito"> <br>
+            Dinheiro<input type="checkbox" value="dinheiro"><br><br>
+
+            <label for="textarea" form="id_form">Alguma observação?</label><br>
+            <textarea id="textarea" rows="5" cols="40"></textarea>
+        </fieldset><br>
+        <input type="submit" value="Solicitar">
+    </form>
+</body>
+
+</html>

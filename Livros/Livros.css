@@ -1,0 +1,21 @@
+body {
+  /*backdrop-filter: blur(1px);*/
+  background-image: url("https://c.stocksy.com/a/gOE000/z9/55346.jpg");  
+ }
+ 
+ table, th {
+  margin-top: 10%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+th:nth-child(1){ background-color: #EECC60;
+}
+th:nth-child(2){ background-color: #fb6c34;
+}
+th:nth-child(3){ background-color: #ad733d;
+}
+th:nth-child(4){ background-color: #f15e5e;
+}
